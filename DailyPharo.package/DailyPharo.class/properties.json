@@ -1,0 +1,14 @@
+{
+	"commentStamp" : "AdamCorbett 6/20/2020 16:15",
+	"super" : "Object",
+	"category" : "DailyPharo",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"date",
+		"counter"
+	],
+	"name" : "DailyPharo",
+	"type" : "normal"
+}
