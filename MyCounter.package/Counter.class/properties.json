@@ -1,0 +1,13 @@
+{
+	"commentStamp" : "AdamCorbett 6/15/2020 20:54",
+	"super" : "Object",
+	"category" : "MyCounter",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"count"
+	],
+	"name" : "Counter",
+	"type" : "normal"
+}
