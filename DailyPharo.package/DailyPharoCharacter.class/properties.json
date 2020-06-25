@@ -6,7 +6,12 @@
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
-		"name"
+		"name",
+		"age",
+		"sex",
+		"gender",
+		"height",
+		"weight"
 	],
 	"name" : "DailyPharoCharacter",
 	"type" : "normal"
