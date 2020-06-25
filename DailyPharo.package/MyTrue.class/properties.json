@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "",
+	"super" : "MyBool",
+	"category" : "DailyPharo",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "MyTrue",
+	"type" : "normal"
+}
