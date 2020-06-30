@@ -6,7 +6,9 @@
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
-		"sides"
+		"sides",
+		"lastRoll",
+		"lastModifier"
 	],
 	"name" : "DailyPharoDie",
 	"type" : "normal"

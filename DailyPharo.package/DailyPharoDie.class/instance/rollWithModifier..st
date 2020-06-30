@@ -1,3 +1,5 @@
 operations
 rollWithModifier: aNumber
-	^ (Random new nextInt: sides) + aNumber
+	lastModifier := aNumber.
+	lastRoll  := (Random new nextInt: sides) + aNumber.
+	^ lastRoll 

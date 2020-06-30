@@ -1,3 +1,5 @@
 operations
 roll
-	^ Random new nextInt: sides
+	lastModifier := nil.
+	lastRoll  := (Random new nextInt: sides).
+	^ lastRoll .
