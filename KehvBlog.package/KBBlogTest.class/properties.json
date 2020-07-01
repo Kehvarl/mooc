@@ -1,0 +1,15 @@
+{
+	"commentStamp" : "",
+	"super" : "TestCase",
+	"category" : "KehvBlog-Tests",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"blog",
+		"post",
+		"first"
+	],
+	"name" : "KBBlogTest",
+	"type" : "normal"
+}

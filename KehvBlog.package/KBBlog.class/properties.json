@@ -1,0 +1,15 @@
+{
+	"commentStamp" : "AdamCorbett 6/30/2020 19:32",
+	"super" : "Object",
+	"category" : "KehvBlog",
+	"classinstvars" : [
+		"uniqueInstance"
+	],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"posts"
+	],
+	"name" : "KBBlog",
+	"type" : "normal"
+}
