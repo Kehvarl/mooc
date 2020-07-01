@@ -8,4 +8,7 @@ rollWithReroll: aNumber
 	
 	(tempRoll <= aNumber) ifTrue: [ tempRoll := (self rollWithReroll: aNumber) ].
 	
-	^ tempRoll
+	lastRoll := tempRoll.
+	lastModifier := nil.
+	
+	^ lastRoll 
