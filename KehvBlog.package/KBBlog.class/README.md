@@ -1,0 +1,2 @@
+- allBlogPosts
+- allBlogPostsFromCategory:
