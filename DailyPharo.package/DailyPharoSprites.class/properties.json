@@ -1,0 +1,14 @@
+{
+	"commentStamp" : "AdamCorbett 7/2/2020 18:12",
+	"super" : "Object",
+	"category" : "DailyPharo",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"spriteSheet",
+		"spriteForms"
+	],
+	"name" : "DailyPharoSprites",
+	"type" : "normal"
+}
