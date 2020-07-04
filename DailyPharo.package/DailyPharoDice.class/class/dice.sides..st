@@ -1,6 +1,6 @@
 instance creation
 dice: aDice sides: aSides
-	^ self new
-	dice: aDice;
-	sides: aSides;
-	yourself
+	| aDPDice |
+	aDPDice := self new.
+	1 to: aDice do: [ :each | aDPDice addDie: (DailyPharoDie withSides: aSides) ].
+	^ aDPDice 
