@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "AdamCorbett 7/4/2020 16:21",
+	"super" : "Object",
+	"category" : "DailyPharo",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "DailyFaerun",
+	"type" : "normal"
+}
