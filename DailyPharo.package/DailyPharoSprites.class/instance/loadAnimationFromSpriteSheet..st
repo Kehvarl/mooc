@@ -7,7 +7,6 @@ loadAnimationFromSpriteSheet: aFileName
 	animGroup := #( #stand #spear #spearwalk #sword #bow #ko).
 	animDirection := #(#up #left #down #right).
 	
-	
 	y := -64.
 	animGroup do: [ :group |
 		animationFrames at: group put: Dictionary new.
