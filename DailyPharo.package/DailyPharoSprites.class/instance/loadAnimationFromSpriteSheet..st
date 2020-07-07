@@ -1,5 +1,6 @@
 accesing
 loadAnimationFromSpriteSheet: aFileName
+"Load 64x64 sprites from given file and divide into dictionary for animation sequence and direction."
 | tempForm animGroup animDirection y |
 	spriteSheet := FileSystem workingDirectory / aFileName
 		binaryReadStreamDo: [ :stream | PNGReadWriter formFromStream: stream ].
