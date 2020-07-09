@@ -1,0 +1,15 @@
+{
+	"commentStamp" : "",
+	"super" : "Object",
+	"category" : "DailyPharo",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"height",
+		"width",
+		"tiles"
+	],
+	"name" : "DailyPharoMap",
+	"type" : "normal"
+}
