@@ -1,0 +1,13 @@
+{
+	"commentStamp" : "AdamCorbett 7/9/2020 22:06",
+	"super" : "WAComponent",
+	"category" : "DailyPharo",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"count"
+	],
+	"name" : "DailyPharoSeaCounter",
+	"type" : "normal"
+}
