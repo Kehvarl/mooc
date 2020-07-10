@@ -5,4 +5,5 @@ height:  aHeight width: aWidth
 	height := aHeight.
 	width := aWidth.
 	tiles := Array2D rows: aHeight columns: aWidth.
+	entities := Set new.
 	^ self.
