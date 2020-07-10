@@ -4,4 +4,5 @@ height:  aHeight width: aWidth
 	[ aWidth isInteger and: [ aWidth  >= 0 ] ] assert.
 	height := aHeight.
 	width := aWidth.
+	tiles := Array2D rows: aHeight columns: aWidth.
 	^ self.

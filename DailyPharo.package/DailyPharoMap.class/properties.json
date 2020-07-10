@@ -1,5 +1,5 @@
 {
-	"commentStamp" : "",
+	"commentStamp" : "AdamCorbett 7/9/2020 18:14",
 	"super" : "Object",
 	"category" : "DailyPharo",
 	"classinstvars" : [ ],
@@ -8,7 +8,8 @@
 	"instvars" : [
 		"height",
 		"width",
-		"tiles"
+		"tiles",
+		"entities"
 	],
 	"name" : "DailyPharoMap",
 	"type" : "normal"
