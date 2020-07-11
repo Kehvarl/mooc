@@ -1,11 +1,13 @@
 {
-	"commentStamp" : "AdamCorbett 7/10/2020 20:39",
+	"commentStamp" : "AdamCorbett 7/10/2020 20:42",
 	"super" : "Object",
 	"category" : "DailyPharo",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
-	"instvars" : [ ],
-	"name" : "DailyPharoSea",
+	"instvars" : [
+		"name"
+	],
+	"name" : "DailyPharoHeroPower",
 	"type" : "normal"
 }

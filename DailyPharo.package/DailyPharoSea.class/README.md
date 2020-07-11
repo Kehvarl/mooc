@@ -132,3 +132,32 @@ TBApplicationRootComponent class >> initialize
 		addLibrary: TBSDeploymentLibrary.
 	app addFilter: TBRestfulFilter new.
 "
+
+MongoDB
+* Document-oriented NoSQL DB
+* Powerful query language
+* Popular document DB
+
+Voyage
+* Object-document Mapper for MongoDV
+* Similar in concept to Hibernate on Java
+* Designed for Pharo
+* Simple
+* Ensures objects Identify
+* Error-handling
+* Connection pool for speed
+
+"
+| repository |
+" VOMemoryRepository "
+repository := VOMongoRepository 
+	host: 'localhost'
+	database: 'demo'.
+repository enableSingleton.
+
+
+"
+
+
+
+
