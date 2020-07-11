@@ -1,4 +1,4 @@
-test
+tests
 testEntities
 
 	self deny: ((map entities) includes: 'Entities').

@@ -1,4 +1,4 @@
-test
+tests
 testTiles
 	self assert: (map tiles) numberOfRows equals: 40.
 	self assert: (map tiles) numberOfColumns  equals: 80.

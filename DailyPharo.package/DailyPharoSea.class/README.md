@@ -55,4 +55,80 @@ Examples:
 					with: 'item ', i asString  ] ]
 "
 
+Magritte
+* Describe (data) once
+* Generate many items/times
+* No manually created forms
+* Seaside components auto-generated
 
+"
+Address
+ street: String
+ plz: Integer
+ place: String
+ canton: String
+
+>>descriptionStreet
+	^ MAStringDescription  new
+		autoAccessor: #street;
+		label: 'Street';
+		priority: 100.
+		
+>>descriptionPlz
+	^ MANumberDescription  new
+		autoAccessor: #plz;
+		priority: 200;
+		label: 'PLZ';
+		beRequired;
+		min: 1000;
+		max: 9999.
+
+>>descriptionPlace 
+	^ MAStringDescription  new
+		autoAccessor: #place;
+		priority: 300;
+		label: 'Place';
+		beRequired.
+"
+"self call: (anAddress asComponent addValidatedForm; yourself)."
+
+
+Seaside REST
+* Smooth and easy integration
+* Annotates domain objects 
+* Natural conversion of url objects
+
+"
+WARestfulFilter subclass: #TBRestfulFilter
+	...
+	
+>>listAll
+	<get>
+	<produces: 'text/json'>
+	
+	^ String streamContents: [ :astream |
+		TBBlog current allBlogPosts 
+			do: [ :each | each javascriptOn: stream ]
+			separatedBy: [ stream << ',' ] ].
+
+>>post: title	
+	<get>
+	<path: 'post/{title}'>
+	<produces: 'text/json'>
+	
+	| post |
+	post := TBBlog current postWithTitle: title.
+	post ifNil: [ ^ self notFound  ].
+	^ String streamContents: [ :astream | 
+		post javascriptOn: astream ].
+	
+"Usage""	
+TBApplicationRootComponent class >> initialize 
+	| app |
+	app := WAAdmin register: self asApplicationAt: 'TinyBlog'.
+	app 
+		addLibrary: JQDeploymentLibrary;
+		addLibrary: JQUiDeploymentLibrary;
+		addLibrary: TBSDeploymentLibrary.
+	app addFilter: TBRestfulFilter new.
+"
