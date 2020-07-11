@@ -2,9 +2,7 @@
 	"commentStamp" : "AdamCorbett 6/30/2020 19:32",
 	"super" : "Object",
 	"category" : "KehvBlog",
-	"classinstvars" : [
-		"uniqueInstance"
-	],
+	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [

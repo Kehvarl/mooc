@@ -1,4 +1,6 @@
 initialization
 current
 	"get the active instance"
-	^ uniqueInstance ifNil: [ uniqueInstance  := self new ]
+	^ self selectAll
+		ifNotEmpty: [ :x | x anyOne ]
+		ifEmpty: [ self new save ].
