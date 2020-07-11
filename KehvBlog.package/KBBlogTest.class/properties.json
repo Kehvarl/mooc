@@ -8,7 +8,8 @@
 	"instvars" : [
 		"blog",
 		"post",
-		"first"
+		"first",
+		"previousRepository"
 	],
 	"name" : "KBBlogTest",
 	"type" : "normal"

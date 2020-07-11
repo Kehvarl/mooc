@@ -1,3 +1,4 @@
 running
 tearDown 
-	KBBlog reset.
+	super tearDown .
+	VORepository setRepository: previousRepository .
