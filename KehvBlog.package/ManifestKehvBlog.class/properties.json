@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "AdamCorbett 7/11/2020 09:58",
+	"super" : "PackageManifest",
+	"category" : "KehvBlog-Manifest",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "ManifestKehvBlog",
+	"type" : "normal"
+}
