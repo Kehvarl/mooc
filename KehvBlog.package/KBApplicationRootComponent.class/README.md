@@ -1,0 +1,1 @@
+Seaside applocation entry point.
