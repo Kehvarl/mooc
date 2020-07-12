@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "AdamCorbett 7/12/2020 16:06",
+	"super" : "WAComponent",
+	"category" : "KehvBlog",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "KBApplicationRootComponent",
+	"type" : "normal"
+}
