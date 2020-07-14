@@ -1,0 +1,3 @@
+rendering
+children
+	^ { main }
