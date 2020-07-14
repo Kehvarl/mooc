@@ -1,4 +1,6 @@
 rendering
 renderContentOn: html 
 	super renderContentOn: html.
-	html text: 'Blog Posts Here!!!'.
+	html tbsContainer: [ 
+		self blog allVisibleBlogPosts do: [  :p |
+			html render: (KBPostComponent new post: p) ] ]
