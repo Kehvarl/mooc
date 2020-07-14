@@ -1,4 +1,4 @@
 initialization
 initialize 
 	super initialize.
-	main := KBScreenComponent new.
+	main := KBPostsListComonent  new.
