@@ -1,0 +1,3 @@
+accessing
+blog
+	^ KBBlog current.

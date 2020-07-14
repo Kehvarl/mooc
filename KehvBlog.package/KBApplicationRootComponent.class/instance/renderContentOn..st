@@ -1,3 +1,3 @@
 rendering
 renderContentOn: html
-	html text: 'KehvBlog'.
+	html render: main

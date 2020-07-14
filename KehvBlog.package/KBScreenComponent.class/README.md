@@ -1,0 +1,1 @@
+Allows shared behavior between components.
