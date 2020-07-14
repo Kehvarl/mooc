@@ -1,0 +1,3 @@
+initialization
+createHeaderComponent
+	^ KBHeaderComponent new.

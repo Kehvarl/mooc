@@ -1,13 +1,11 @@
 {
-	"commentStamp" : "AdamCorbett 7/13/2020 19:36",
+	"commentStamp" : "AdamCorbett 7/13/2020 19:54",
 	"super" : "WAComponent",
 	"category" : "KehvBlog-Components",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
-	"instvars" : [
-		"header"
-	],
-	"name" : "KBScreenComponent",
+	"instvars" : [ ],
+	"name" : "KBHeaderComponent",
 	"type" : "normal"
 }
