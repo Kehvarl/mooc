@@ -1,5 +1,5 @@
 initialization
 postComponents
-	postComponents := self blog allVisibleBlogPosts
+	postComponents := self readSelectedPosts
 		collect: [ :each | KBPostComponent new post: each ].
 	^ postComponents .

@@ -6,7 +6,8 @@
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
-		"postComponents"
+		"postComponents",
+		"currentCategory"
 	],
 	"name" : "KBPostsListComonent",
 	"type" : "normal"
