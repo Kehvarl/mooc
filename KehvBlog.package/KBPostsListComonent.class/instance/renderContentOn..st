@@ -9,14 +9,11 @@ renderContentOn: html
 					extraSmallSize: 12;
 					smallSize: 2;
 					mediumSize: 4;
-					with: [ 
-						html render: (KBCategoriesComponent 
-							categories: (self blog allCategories ) 
-							postsList: self) ]. 
+					with: [ html render: self categoriesComponent ]. 
 				html tbsColumn 
 					extraSmallSize: 12;
 					smallSize: 10;
 					mediumSize: 8;
 					with: [ 
-							self postComponents do: [  :p |
-								html render: p ] ] ]	].
+							self readSelectedPosts  do: [  :p |
+								html render: (self postComponentFor: p) ] ] ]	].
