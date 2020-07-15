@@ -1,3 +1,3 @@
 operations
 allCategories
-	^(self allBlogPosts collect: [:p | p category]) asSet.
+	^ (self allBlogPosts collect: [ :p | p category ]) asSortedCollection asSet.
