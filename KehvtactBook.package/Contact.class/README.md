@@ -1,1 +1,1 @@
-A Contact entry
+I represent a person with a name and an email address.  I'm usually part of a contact book.
