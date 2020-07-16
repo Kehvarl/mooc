@@ -1,0 +1,14 @@
+{
+	"commentStamp" : "AdamCorbett 7/15/2020 18:18",
+	"super" : "Object",
+	"category" : "KehvtactBook",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"fullname",
+		"email"
+	],
+	"name" : "Contact",
+	"type" : "normal"
+}
