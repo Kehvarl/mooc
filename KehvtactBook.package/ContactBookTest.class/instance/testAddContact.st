@@ -1,7 +1,11 @@
 tests
 testAddContact
-	contactBook addContact: (Contact 
-		newNamed: 'Marcus Denker'
-		email: 'marcus.denker@inria.fr').
+	| contact startingSize |
 	
-	self assert: contactBook contacts size equals: 1.
+	contact := (Contact  newNamed: 'Added Contact' email: 'added.contact+1@test.com').
+	
+	startingSize := contactBook contacts size.
+	
+	contactBook addContact: contact.
+	
+	self assert: contactBook contacts size equals: (startingSize + 1).

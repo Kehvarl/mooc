@@ -1,4 +1,4 @@
 running
 setUp
 	super setUp.
-	contactBook := ContactBook new.
+	contactBook := ContactBook createDefault.
