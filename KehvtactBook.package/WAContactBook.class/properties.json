@@ -1,0 +1,13 @@
+{
+	"commentStamp" : "AdamCorbett 7/16/2020 21:19",
+	"super" : "WAComponent",
+	"category" : "KehvtactBook",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"contactBook"
+	],
+	"name" : "WAContactBook",
+	"type" : "normal"
+}
