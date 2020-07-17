@@ -5,4 +5,4 @@ renderContentOn: html
 		html heading
 			level: 1;
 			with: 'My Contact Book'.
-		self renderContactsOn: html ].
+		html tbsForm: [ self renderContactsOn: html ] ].
