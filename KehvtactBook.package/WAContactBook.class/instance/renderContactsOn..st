@@ -1,6 +1,6 @@
 rendering
 renderContactsOn: html 
-	html table: [ 
+	html tbsTable: [ 
 		html tableHead: [ 
 			html
 				tableHeading: 'Name';
