@@ -4,4 +4,5 @@ renderContact: aContact on: html
 		html tableRow: [ 
 			html
 				tableData: aContact fullname ;
-				tableData: aContact email ].
+				tableData: aContact email ;
+				tableData: [self renderPhotoOf: aContact on: html ] ].

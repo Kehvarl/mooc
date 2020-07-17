@@ -4,5 +4,6 @@ renderContactsOn: html
 		html tableHead: [ 
 			html
 				tableHeading: 'Name';
-				tableHeading: 'Email' ].
+				tableHeading: 'Email';
+				tableHeading: 'Photo' ].
 		self contactsDo: [ :contact | self renderContact: contact on: html ] ].
