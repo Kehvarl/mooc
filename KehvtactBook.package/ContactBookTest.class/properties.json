@@ -6,8 +6,8 @@
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
-		"contact"
+		"contactBook"
 	],
-	"name" : "ContactTest",
+	"name" : "ContactBookTest",
 	"type" : "normal"
 }

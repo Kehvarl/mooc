@@ -1,14 +1,13 @@
 {
-	"commentStamp" : "AdamCorbett 7/15/2020 20:36",
+	"commentStamp" : "AdamCorbett 7/15/2020 20:40",
 	"super" : "Object",
 	"category" : "KehvtactBook",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
-		"fullname",
-		"email"
+		"contacts"
 	],
-	"name" : "Contact",
+	"name" : "ContactBook",
 	"type" : "normal"
 }
