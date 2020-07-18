@@ -6,4 +6,5 @@ renderContact: aContact on: html
 				tableData: aContact fullname ;
 				tableData: aContact email ;
 				tableData: [ self renderPhotoOf: aContact on: html ] ;
-				tableData: [ self renderRemoveButtonForContact: aContact on: html ] ].
+				tableData: [ self renderRemoveButtonForContact: aContact on: html ] ;
+				tableData: [ self renderButtonsForContact: aContact on: html ] ].

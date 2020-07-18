@@ -5,5 +5,5 @@ renderEmailFieldOn: html
 		html emailInput  
 			tbsFormControl
 			placeholder: 'you@email.tld';
-			callback: [ :email | self contact email: email ];
+			callback: [ :email | self contact email: email address ];
 			value: (self contact email ifNil: '') ].
