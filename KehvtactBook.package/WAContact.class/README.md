@@ -1,0 +1,1 @@
+I represent a single new contact entry.

@@ -5,4 +5,6 @@ renderContentOn: html
 		html heading
 			level: 1;
 			with: 'My Contact Book'.
-		html tbsForm: [ self renderContactsOn: html ] ].
+		html tbsForm: [ 
+			self renderContactsOn: html.
+			self renderGlobalButtonsOn: html. ] ].
