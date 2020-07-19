@@ -1,0 +1,1 @@
+I am the web component for a single Timer

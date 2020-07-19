@@ -1,0 +1,13 @@
+{
+	"commentStamp" : "AdamCorbett 7/18/2020 22:26",
+	"super" : "WAComponent",
+	"category" : "KehvTime-Components",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"timer"
+	],
+	"name" : "KehvTimeTrackerComponent",
+	"type" : "normal"
+}
