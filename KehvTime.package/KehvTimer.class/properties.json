@@ -1,0 +1,15 @@
+{
+	"commentStamp" : "AdamCorbett 7/18/2020 21:48",
+	"super" : "Object",
+	"category" : "KehvTime",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"label",
+		"begin",
+		"end"
+	],
+	"name" : "KehvTimer",
+	"type" : "normal"
+}

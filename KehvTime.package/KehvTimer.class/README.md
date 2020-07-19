@@ -1,0 +1,1 @@
+I represent an elapsed time on a task
