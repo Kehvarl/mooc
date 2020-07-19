@@ -1,0 +1,3 @@
+initialization
+initialize 
+	running := false.

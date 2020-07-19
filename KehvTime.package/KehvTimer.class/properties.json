@@ -8,7 +8,8 @@
 	"instvars" : [
 		"label",
 		"begin",
-		"end"
+		"end",
+		"running"
 	],
 	"name" : "KehvTimer",
 	"type" : "normal"
