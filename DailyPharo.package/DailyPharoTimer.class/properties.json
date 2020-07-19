@@ -1,0 +1,15 @@
+{
+	"commentStamp" : "AdamCorbett 7/18/2020 19:44",
+	"super" : "WAComponent",
+	"category" : "DailyPharo",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"label",
+		"begin",
+		"end"
+	],
+	"name" : "DailyPharoTimer",
+	"type" : "normal"
+}
