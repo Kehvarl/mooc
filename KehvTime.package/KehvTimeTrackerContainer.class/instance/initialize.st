@@ -1,3 +1,3 @@
 initialization
 initialize 
-	timers := OrderedCollection .
+	timers := OrderedCollection new.

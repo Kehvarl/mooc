@@ -1,3 +1,3 @@
-initialization
+class initialization
 withLabel: aString
-	^ (self new; label: aString).
+	^ (self new label: aString).

@@ -1,0 +1,3 @@
+control
+stop 
+	timer stop.

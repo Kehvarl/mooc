@@ -1,3 +1,5 @@
 initialization
 initialize 
-	timer := KehvTimer new
+	timer := KehvTimer new. 
+	timer label: 'Test'.
+	
