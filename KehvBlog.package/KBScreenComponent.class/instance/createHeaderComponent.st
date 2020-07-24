@@ -1,3 +1,3 @@
 initialization
 createHeaderComponent
-	^ KBHeaderComponent new.
+	^ KBHeaderComponent from: self.
