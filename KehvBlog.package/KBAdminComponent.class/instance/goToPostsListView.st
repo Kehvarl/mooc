@@ -1,0 +1,3 @@
+commands
+goToPostsListView
+	self answer.

@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "AdamCorbett 7/25/2020 18:44",
+	"super" : "KBHeaderComponent",
+	"category" : "KehvBlog-Components",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "KBAdminHeaderComponent",
+	"type" : "normal"
+}
